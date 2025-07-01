@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sketch</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="outer-bg"></div>
+   <div class="controls-top">
+  <label for="grid-size">Enter grid size (max 100): </label>
+  <input type="number" id="grid-size" min="2" max="100">
+  <button id="set-grid">Set Grid</button>
+</div>
+
+   <div class="controls">
+  <div class="left-controls">
+    <button id="rainbow">🌈 Rainbow</button>
+    <button id="draken">🌚 Darken</button>
+  </div>
+
+  <div class="right-controls">
+    <button id="erasor">🧼 Eraser</button>
+    <input type="color" id="colorPicker" value="#000000">
+    <button id="singleColor">🎨 Single Color</button>
+  </div>
+</div>
+
+    <div id="container"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
