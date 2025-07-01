@@ -7,7 +7,7 @@ body {
   font-family: 'Comic Neue', cursive;
   
 body, #container {
-  background-image: url('azu2.png'); 
+  background-image: url('img/azu2.png'); 
   background-position: center center;  
   background-repeat: no-repeat;
   background-size: contain;            
@@ -23,7 +23,7 @@ body, #container {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url('skyazu.jpg');  
+  background-image: url('img/skyazu.jpg');  
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
